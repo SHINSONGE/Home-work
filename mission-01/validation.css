@@ -1,0 +1,15 @@
+
+
+
+ul.text{
+  border: 1px solid #121212;
+  background: url(./image/web_standards\ 1.png) no-repeat 0 0 / 100%;
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+
+a{
+  border: 1px solid #121212;
+}

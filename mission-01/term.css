@@ -1,0 +1,22 @@
+
+body {
+  font-size: 10pt;
+  margin: 0px;
+  overflow: hidden;
+  padding: 10;
+}
+
+
+
+div{
+  position: relative;
+  width: 230;
+  height: 259;
+  border-right-color: gray;
+  border: 1px solid #000000;
+}
+
+.dt1{
+  display: inline;
+  float: left;
+}
