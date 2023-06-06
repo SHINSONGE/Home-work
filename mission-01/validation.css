@@ -1,15 +1,25 @@
 
 
 
-ul.text{
-  border: 1px solid #121212;
-  background: url(./image/web_standards\ 1.png) no-repeat 0 0 / 100%;
-  padding-left: 0;
-  list-style-position: inside;
+body{
+  
+}
+
+ul{
+  padding: 30;
   list-style-type: none;
+  padding-left: 0;
 }
 
 
-a{
-  border: 1px solid #121212;
+li{
+  width: 180px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 50px 50px 50px 50px;
+  background: url(./image/validation_icon\ 2.png) no-repeat;
+  background-color: rgb(148, 147, 147);
+  padding-left: 30px; 
+  margin: 10px 0;
 }
+
