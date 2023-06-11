@@ -32,4 +32,4 @@
   padding-top: 10px;
 
 ## 스크린샷
-![image](
+https://user-images.githubusercontent.com/134567654/244958230-5fce239a-b577-4ae7-b0c4-c872e8bda9c1.mov
