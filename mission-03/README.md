@@ -27,9 +27,7 @@
 
 4. ul:hover
 - height를 시안의 길이만큼 145px을 주고, transition의 값을 부여한다.
-  transition-property: height;
-  transition-duration: 1s;
-  padding-top: 10px;
+
 
 ## 스크린샷
 https://user-images.githubusercontent.com/134567654/244958230-5fce239a-b577-4ae7-b0c4-c872e8bda9c1.mov
