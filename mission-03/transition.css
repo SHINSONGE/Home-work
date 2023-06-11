@@ -1,0 +1,54 @@
+
+/* 전체 박스 */
+.big-box{
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  width: 190px;
+  height: auto;
+  background: #a3a3a3;
+  padding: 8px 12px 12px 12px;
+}
+
+/* 헤딩 수정 */
+.tittle{
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+.tittle .tittle-blue{
+  color: #ED552F;
+}
+
+/* ul리스트 정리 */
+ul{
+  background-color: #ffffff;
+  margin: 8px 0 0 0;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0px 65px 0px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+a{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 29px;
+}
+
+/* transition 적용 */
+
+ul:hover{
+  height: 145px;
+  transition-property: height;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0.3s;
+  padding-top: 10px;
+}
+
+
