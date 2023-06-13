@@ -1,4 +1,4 @@
-# 관련 사이트 목록 Transition 활용하여 동작하기
+# 관련 사이트 목록 grid 활용하여 동작하기
 실습을 위한 과제로, mission-4 라는 폴더 안에 grid.html, grid.css파일을 만든다.
 
 ## HTML 마크업의 순서(head 제외)
