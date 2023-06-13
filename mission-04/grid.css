@@ -1,0 +1,103 @@
+
+/* 큰 박스 그리기 */
+.news{
+  width: 380px;
+  height: 200px;
+
+}
+
+.title{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+h2{
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ED552F;
+  line-height: 21px;
+}
+
+a{
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration-line:none
+}
+
+
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 8px;
+  margin: 0px;
+  padding: 0px;
+  height: 154px;
+  
+}
+
+.main-title{
+  grid-row: 2/4;
+  grid-column: 5/13;
+}
+
+.main-title h3{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.main-title p{
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.text{
+  grid-row: 5/9;
+  grid-column: 5/13;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.image{
+  grid-row: 2/9;
+  grid-column: 1/4;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.image figure{
+  width: 112px;
+  height: 66px;
+  margin: 0;
+  padding: 0;
+}
+
+.image img{
+  box-shadow:0px 15px 15px 5px #AAAAAA;
+}
+
+.image figcaption{
+  text-align: center;
+  margin-top: 16px;
+}
+
+
+
+
