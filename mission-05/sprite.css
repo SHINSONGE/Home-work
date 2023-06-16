@@ -1,0 +1,212 @@
+/* 다시 시작 */
+
+/* 큰 테두리 그리기 */
+.favolite-Site{
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  background: linear-gradient(180deg,#cccccc,#EEEEEE);
+  width: 166px;
+  height: 123px;
+  padding: 12px;
+  position: relative;
+}
+
+/* 헤드 꾸미기 */
+h2{
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.accent-title{
+  color: #ED552F;
+}
+
+/* 목록 꾸미기 */
+
+.site-list{
+  display: grid;
+  gap: 8px;
+}
+
+
+/* 이미지 백그라운드 삽입 */
+.sprite-item{
+  position: relative;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+li{
+  background: url(./rank.png) no-repeat right;
+}
+
+li.spriteW{
+  background-position: 0 -50%;
+}
+
+.spriteWS{
+  background-position: 1 0;
+}
+
+.spriteCZ{
+  background-position: 0 0;
+}
+
+.spriteM{
+  background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+.sprite-item::before{
+  content: attr(data-b);
+  position: absolute;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  background-color: #a3a3a3;
+  width: 16px;
+  height: 16px;
+  color: white;
+  text-align: center;
+  line-height: 16.5px;
+
+}
+
+.site-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  display: block;
+  margin-left: 24px;
+  text-decoration-line:none;
+  color: black;
+  align-items: center;
+  line-height: 20px;
+}
+
+
+/* 더보기 */
+.more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 큰 테두리 */
+/* .favolite-Site{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 166px;
+  height: 123px;
+  padding: 12px;
+  position: relative;
+
+}
+
+h2{
+  margin: 0;
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.accent-title{
+  color: #ED552F;
+}
+
+.site-list{
+  margin: 8px 0 0 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 8px;
+  line-height: 16.5px;
+}
+
+
+
+
+.site-list [class*="sprite-"] {
+  display: flex;
+  flex-flow: row;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.site-list [class*="sprite-"] span.box {
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  background-color: #a3a3a3;
+  width: 16px;
+  height: 16px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  line-height: 16.5px;
+  margin-right: 5px;
+}
+
+.favolite-Site [class*="image-"] {
+  position: absolute;
+  border: 0;
+  width: 9px;
+  height: 9.5px;
+  right: 0;
+  background: url(./rank.png)
+  
+}
+
+
+.image-w3c{
+  background-position: 0 0;
+
+}
+
+
+.image-w-s{
+  background-position: 0 -500px;
+}
+
+.image-c-z{
+
+}
+
+.image-mdn{
+
+}
+
+a{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  line
+}
+ */
