@@ -38,25 +38,27 @@ h2{
   font-weight: 400;
 }
 
-li{
+.sprite{
   background: url(./rank.png) no-repeat right;
+
 }
 
-li.spriteW{
-  background-position: 0 -50%;
+.spriteW{
+  background-position-y: -2%;
 }
 
 .spriteWS{
-  background-position: 1 0;
+  background-position-y: 110%;
 }
 
 .spriteCZ{
-  background-position: 0 0;
+  background-position-y: 50%;
 }
 
 .spriteM{
-  background-position: 0 0;
+  background-position-y: -2%;
 }
+
 
 
 
